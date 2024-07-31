@@ -3,6 +3,7 @@ import App from "../App";
 import ErrorPage from "../pages/ErrorPage";
 import { CatalogProducts } from "../pages/CatalogProducts";
 import { Contact } from "../pages/Contact";
+import { Welcome } from "../pages/Welcome";
 
 export const router = createBrowserRouter([
     {
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
       element: <App/>,
       errorElement:<ErrorPage/>,
       children:[
+        {
+          path:"",
+          element:<Welcome/>
+        },
         {
             path:"catalogo",
             element:<CatalogProducts/>,

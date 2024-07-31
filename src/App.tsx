@@ -5,11 +5,10 @@ function App() {
 
 	return (
         <>
-        <Header/>
-        <main>
-            <h1>BOOST TEST</h1>
-            <Outlet/>
-        </main>
+            <Header/>
+            <main>
+                <Outlet/>
+            </main>
         </>
     )
 }
