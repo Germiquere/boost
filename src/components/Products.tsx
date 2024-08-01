@@ -6,9 +6,9 @@ interface IProductsProps {
 }
 export const Products : React.FC<IProductsProps> = ( {products} ) => {
     return (
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center pt-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center py-10">
             {products.map((product : IProduct) => (
-                <Product key={product.nombre} product={product} />
+                <Product key={product.name} product={product} />
             ))}
             </div>
            
