@@ -26,7 +26,7 @@ export const Hero = () => {
             case '/catalogo':
                 return {
                     image: hero3,
-                    title: "Variedad de gran ciudad, precios de pueblo pequeño",
+                    title: "Conoce nuestras especialidades",
                     subTitle: ""
                 }
             default:
