@@ -1,6 +1,6 @@
 import {search,knifeFork,leaf} from "../assets/svgs/svgs"
 import { ProductFact } from "./ProductFact";
-export interface Fact {
+export interface IFact {
     title: string;
     img: JSX.Element
     text: string;

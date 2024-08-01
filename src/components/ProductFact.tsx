@@ -1,11 +1,11 @@
 import React from "react";
-import { Fact } from "./ProductFacts";
+import { IFact } from "./ProductFacts";
 
-interface FactItemProps {
-    fact: Fact;
+interface IFactItemProps {
+    fact: IFact;
 }
 
-export const ProductFact: React.FC<FactItemProps> = ({fact}) => {
+export const ProductFact: React.FC<IFactItemProps> = ({fact}) => {
     const {img,text,title} = fact
 
     return (

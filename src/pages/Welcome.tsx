@@ -3,7 +3,7 @@ import { Story } from "../components/Story"
 
 export const Welcome = () => {
     return (
-        <section className="">
+        <section>
            <Story/>
            <OurProducts/>
         </section>

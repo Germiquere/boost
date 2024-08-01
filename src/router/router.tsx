@@ -1,9 +1,9 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, defer } from "react-router-dom";
+
 import App from "../App";
-import ErrorPage from "../pages/ErrorPage";
-import { CatalogProducts } from "../pages/CatalogProducts";
-import { Contact } from "../pages/Contact";
-import { Welcome } from "../pages/Welcome";
+import { catalogLoader } from "../utils";
+import { CatalogProducts, Contact, ErrorPage, Welcome } from "../pages";
+
 
 export const router = createBrowserRouter([
     {
@@ -18,6 +18,7 @@ export const router = createBrowserRouter([
         {
             path:"catalogo",
             element:<CatalogProducts/>,
+            loader: async () => defer({products: catalogLoader()})
         },
         {
             path:"contacto",
