@@ -31,7 +31,7 @@ export const Header = () => {
                 <Link to="/">
                 <img src={logoBlack} alt="logo"/>
                 </Link>
-                <nav className="flex items-center justify-center p-6 lg:px-8 gap-3 text-sm sm:text-base font-NotoSants" aria-label="Global">
+                <nav className="flex items-center justify-center py-5 px-3  gap-3 text-xs sm:text-base font-NotoSants" aria-label="Global">
                     {
                         links.map( link => (
                             <NavLink key={link.name} to={link.href} className={getNavLinkClass}>{link.name}</NavLink>
