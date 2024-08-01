@@ -1,6 +1,6 @@
 export interface IProduct {
-    tipo: 'cafe' | 'batido' | 'comida';
-    nombre: string;
-    descripcion: string;
-    imagen: string;
+    type: 'cafe' | 'batido' | 'comida';
+    name: string;
+    description: string;
+    image: string;
   }
