@@ -13,7 +13,7 @@ export const FooterCard : React.FC <IFooterCardProps> = ( {card}) => {
             </div>
             <h3 className="font-semibold text-lg font-NotoSants">{title}</h3>
             <h3 className="font-semibold text-lg font-NotoSants">{subtitle}</h3>
-            <p className="w-56   text-gray-500 font-NotoSants whitespace-pre-line">{description}</p>
+            <p className="w-56   text-gray-500 font-NotoSants whitespace-pre-line text-sm md:text-base">{description}</p>
         </div>
     )
 }
