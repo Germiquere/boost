@@ -22,7 +22,7 @@ export const Product: React.FC<IProductProps> = ({ product }) => {
             <div className="flex flex-col flex-grow items-center gap-5">
                 <h3 className="font-NotoSants font-semibold text-sm">{name}</h3>
                 <img src={blackDots} alt="separador de contenido" className="w-[50px] h-[5px]" />
-                <p className="font-NotoSants text-sm">{description}</p>
+                <p className="font-NotoSants text-sm px-2">{description}</p>
                 <span
                     className="p-3 w-full opacity-0 bg-green-600 text-white font-NotoSants font-semibold text-sm group-hover:opacity-100 mt-auto transition-all duration-300">
                     COMPRAR

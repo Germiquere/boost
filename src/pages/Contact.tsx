@@ -5,7 +5,7 @@ export const Contact = () => {
     return (
         <section className="mx-auto max-w-7xl w-full py-10 px-3">
             <motion.div 
-            className="flex flex-col items-center gap-5"
+            className="flex flex-col items-center gap-5 text-center"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ 
