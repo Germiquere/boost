@@ -1,7 +1,7 @@
 # BOOST'S COFFEE HOUSE
 Boost Cafe is a sleek and modern landing page designed to welcome visitors, showcase our coffee products, and facilitate easy contact. Built with React, TypeScript, and the latest React Router 6.4 for seamless navigation, it features elegant animations powered by Framer Motion. Developed using Vite for fast performance, and thoroughly tested with Jest and React Testing Library
 ## DEMOS 
-## [Demo 💥](https://www.youtube.com/watch?v=BQUEjkmKau8)
+## [Demo 💥](https://boost-gamma-six.vercel.app/)
 
 
 ## Technologies
