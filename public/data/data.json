@@ -1,0 +1,86 @@
+[
+  {
+    "type": "coffee",
+    "name": "Espresso",
+    "description": "Un café fuerte y concentrado, servido en pequeñas cantidades.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531002/depositphotos_29984965-stock-photo-coffee-espresso-cup-of-coffee_djmvqx.webp"
+  },
+  {
+    "type": "coffee",
+    "name": "Latte",
+    "description": "Café espresso con leche al vapor y una capa de espuma.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531003/ec178d83e5f597b162cda1e60cb64194_cuo4lo.png"
+  },
+  {
+    "type": "coffee",
+    "name": "Cappuccino",
+    "description": "Espresso con partes iguales de leche al vapor y espuma.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531001/46349.jpg_zj2d78.webp"
+  },
+  {
+    "type": "coffee",
+    "name": "Americano",
+    "description": "Café espresso diluido con agua caliente.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531001/450_1000_ztr1rk.jpg"
+  },
+  {
+    "type": "coffee",
+    "name": "Mocha",
+    "description": "Espresso con leche al vapor, chocolate y crema batida.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531002/mocha-4-scaled_dztnd2.jpg"
+  },
+  {
+    "type": "smoothie",
+    "name": "Batido de Fresa",
+    "description": "Batido hecho con fresas frescas, leche y un toque de azúcar.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722530987/images_d6tetn.jpg"
+  },
+  {
+    "type": "smoothie",
+    "name": "Batido de Banana",
+    "description": "Batido cremoso de banana con leche y miel.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722530987/Receta-1-batido-de-platano_utf3qq.webp"
+  },
+  {
+    "type": "smoothie",
+    "name": "Batido de Mango",
+    "description": "Refrescante batido de mango con leche y un toque de limón.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722530987/1571780868781_fxdl78.jpg"
+  },
+  {
+    "type": "smoothie",
+    "name": "Batido de Chocolate",
+    "description": "Delicioso batido de chocolate con leche y helado de vainilla.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722530988/dia-del-batido-de-chocolate_gy8gky.jpg"
+  },
+  {
+    "type": "food",
+    "name": "Croissant",
+    "description": "Panecillo francés hojaldrado y mantecoso.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531612/Vegan-Croissants-1_hgmx8p.jpg"
+  },
+  {
+    "type": "food",
+    "name": "Panini de Jamón y Queso",
+    "description": "Panini crujiente relleno de jamón y queso derretido.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531392/resized-ham-and-swiss-panini_media-jpg_nzpx4r.jpg"
+  },
+  {
+    "type": "food",
+    "name": "Ensalada César",
+    "description": "Ensalada fresca con lechuga romana, crutones, parmesano y aderezo César.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531393/shutterstock_1087243763_dhp1pw.webp"
+  },
+  {
+    "type": "food",
+    "name": "Panini de Pollo",
+    "description": "Panini con pechuga de pollo a la parrilla, queso suizo y pesto.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531393/Focaccia_Haehnchen2-scaled_uhkxs5.jpg"
+  },
+  {
+    "type": "food",
+    "name": "Ensalada Griega",
+    "description": "Ensalada con tomates, pepino, cebolla, aceitunas y queso feta.",
+    "image": "https://res.cloudinary.com/djslo5b3u/image/upload/v1722531392/21-salad_zwbf8a.jpg"
+  }
+]

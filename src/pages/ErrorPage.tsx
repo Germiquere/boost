@@ -1,0 +1,28 @@
+import { isRouteErrorResponse, Link, useRouteError } from "react-router-dom";
+
+export const ErrorPage = () =>{
+  const error = useRouteError();
+  let errorMessage: string;
+
+  if (isRouteErrorResponse(error)) {
+    // error is type `ErrorResponse`
+    errorMessage = error.error?.message || error.statusText;
+  } else if (error instanceof Error) {
+        errorMessage = error.message;
+  } else if (typeof error === 'string') {
+        errorMessage = error;
+  } else {
+        errorMessage = 'Unknown error';
+  }
+
+    return (
+        <div id="error-page" className="flex flex-col gap-8 justify-center items-center h-screen">
+            <h1 className="text-4xl font-bold">Oops!</h1>
+            <p>Lo sentimos, ha sucedido un error inesperado.</p>
+            <p className="text-slate-400">
+                <i>{errorMessage}. </i>
+                <Link to="/" className="underline">Volver al inicio</Link>
+            </p>
+        </div>
+    );
+}
