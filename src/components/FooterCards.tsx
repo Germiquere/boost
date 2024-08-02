@@ -25,7 +25,7 @@ export const FooterCards = () => {
             title: "VISITANOS",
             subtitle: "Nuestros horarios",
             image: calendar,
-            description: "Lun-Vier: 7am-8pm \n Sab-Dom: 8am-8pm"
+            description: "Lun-Vier: 7am-8pm\nSab-Dom: 8am-8pm"
         },
     ]
     return (

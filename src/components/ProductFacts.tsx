@@ -1,5 +1,7 @@
+import { motion } from "framer-motion";
 import {search,knifeFork,leaf} from "../assets/svgs/svgs"
 import { ProductFact } from "./ProductFact";
+
 export interface IFact {
     title: string;
     img: JSX.Element
@@ -25,10 +27,18 @@ export const ProductFacts = () => {
         }
     ]
     return (
-        <div className="flex flex-col gap-8 md:flex-row">
+        <motion.div 
+        className="flex flex-col gap-8 md:flex-row"
+        initial={{translateY:"100%",opacity:0}}
+        whileInView={{translateY:"0",opacity:1}}
+        viewport={{ 
+            once:true
+        }}
+        transition={{ ease: "easeOut", duration: 0.65 }}
+        >
             {facts.map( fact => (
                 <ProductFact key={fact.title} fact={fact}/>
             ))}
-        </div>
+        </motion.div>
     )
 }
