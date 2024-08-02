@@ -11,7 +11,7 @@ interface UseForm<T> {
 
 export const useForm = <T extends object>(
     initialForm: T,
-    validationRules: Partial<Record<keyof T, (value: any) => string | undefined>>): UseForm<T> => {
+    validationRules: Partial<Record<keyof T, ( value: any ) => string | undefined>>): UseForm<T> => {
     const [formState, setFormState] = useState(initialForm);
     const [errors, setErrors] = useState<Partial<Record<keyof T, string>>>({});
     
@@ -42,6 +42,7 @@ export const useForm = <T extends object>(
     const validate = (): boolean => {
         const newErrors: Partial<Record<keyof T, string>> = {};
         Object.keys(validationRules).forEach((key) => {
+            // if the validation function exists it executes the function with the formState key as the value
             const error = validationRules[key as keyof T]?.(formState[key as keyof T]);
             if (error) {
                 newErrors[key as keyof T] = error;
